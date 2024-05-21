@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+          }
+        }
+      </script>
+      
+</head>
+
+<body>
+    <div id="menu">
+        <div id="img_container">
+            <img alt="imge" src="./img/My_exhibitions.png" />
+        </div>
+        <div id="content">
+            <h1>Art Gallery <br /> in 3D</h1>
+            <div>
+                <p>This is an interactive 3D Gallery</p>
+                <p>Made while Trying 3.js</p>
+            </div>
+            <div>
+                <p>Instrctions</p>
+                <p>Arror Keys or W/A/S/D to move Around</p>
+                <p>Move to Look Around</p>
+            </div>
+            <div id="play_button">
+                <p>Enter the Gallery</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/three.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
